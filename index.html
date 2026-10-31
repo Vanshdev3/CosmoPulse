@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CosmoPulse - Live Space Weather</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <h1>🌌 CosmoPulse Dashboard</h1>
+            <p>Real-time data feeds straight from NASA APIs</p>
+        </header>
+        
+        <div class="grid">
+            <!-- NASA Astronomy Picture -->
+            <div class="card main-card">
+                <h2>📸 Astronomy Picture of the Day</h2>
+                <div id="apod-box">Fetching latest space image...</div>
+            </div>
+
+            <!-- Solar Flare Feed -->
+            <div class="card">
+                <h2>🔥 Recent Solar Flare Activity</h2>
+                <ul id="flare-box">Scanning solar coordinates...</ul>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
