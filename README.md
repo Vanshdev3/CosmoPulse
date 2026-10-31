@@ -1,0 +1,2 @@
+# CosmoPulse Dashboard
+A real-time telemetry panel displaying cosmic data and space weather activity pulled straight from open-source astronomical interfaces. Built using vanilla HTML5, CSS Grid, and custom asynchronous JavaScript with robust API error exception handling fallbacks.
